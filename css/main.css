@@ -1,0 +1,217 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #1e202b;
+}
+
+
+.navbar{
+    background-color: #1e202b;
+    padding: 50px 0;
+}
+.navbar .navbar-brand{
+    display: flex;
+    text-align: center;
+}
+.navbar .navbar-brand img{
+    width: 64px;
+    height: 38px;
+}
+.navbar .navbar-brand .logo-text{
+    margin-left: 8px;
+}
+.navbar .navbar-brand span{
+    color: white;
+    width: 76px;
+    display: block;
+}
+.navbar .navbar-brand span:first-child{
+    font-weight: 700;
+}
+.navbar .navbar-brand span:last-child{
+    font-size: 10px;
+    /* font-size: 0.7142857143em; */
+    display: block;
+    color: #bfc1c8;
+}
+.nav-item a{
+    color: white;
+  
+
+}
+.nav-item{
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+.nav-item:hover{
+    border-color: #009ad8;;
+}
+.nav-item:hover a{
+    color: #009ad8;
+}
+.navbar-toggler-icon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-toggler {
+   
+    border: 2px solid transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    outline: none;
+}
+.navbar-toggler:hover{
+    border-color: #009ad8;
+}
+.navbar .navbar-toggler-icon{
+ width: fit-content;
+ height: fit-content;
+}
+.navbar-toggler:hover i{
+    color: #009ad8;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-collapse.show{
+    background-color: #262936;
+}
+.navbar-collapse.show .nav-item {
+    border: none;
+}
+.navbar-collapse.show .navbar-nav{
+    text-align: center;
+} 
+.navbar-collapse.show .navbar-nav .nav-link{
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(87 66 66 / 80%);;
+}
+
+.navbar-collapse.show .nav-item:last-child .nav-link{
+    border-bottom: none;
+}
+.content{
+    background-color: #1e202b;
+}
+.content-bg .image{
+    height: 352px;
+}
+.content-bg{
+ 
+}
+.content-bg .info{
+    width: 100%;
+    margin-top: -274px;
+    isolation: isolate;
+}
+.fine{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+.form-control{
+    outline: 0;
+    background-color: #1e202b;
+    color: white;
+    border: none;
+}
+.info .form-control:focus {
+    color: white;
+    background-color: #1e202b;;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none ;
+}
+
+.row{
+    background-color:#323544 ;
+    border-radius: 14px;
+    margin-top: 50px;
+    overflow: hidden;
+    color: white;
+}
+.row .col-lg-4{
+    padding: 0;
+}
+.row .col-lg-4:nth-of-type(even){
+    background-color: #262936;
+}
+.row .col-lg-4 .day{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #0000001a;
+
+}
+.row .col-lg-4 .weather-of-city{
+    padding: 30px 10px 40px;
+}
+.row .col-lg-4 .weather-of-city .city{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #bfc1cb;
+}
+.row .col-lg-4 .weather-of-city .degree{
+    font-size: 90px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.row .col-lg-4 .weather-of-city .weather-image{
+    width: 90px;
+    height: 90px;
+}
+.row .col-lg-4 .weather-of-city .weather-desc{
+    margin-bottom: 10px;
+    color: #009ad8;
+}
+.row .col-lg-4 .weather-of-city .icons{
+    display: flex;
+   
+}
+.row .col-lg-4 .weather-of-city .icons .icon{ 
+    margin-right: 36px;
+    color: #bfc1cb;
+}
+.row .col-lg-4 .weather-of-city .icons .icon span{
+    margin-left: 6px;
+}
+
+.footer {
+    background: #262936;
+    padding: 50px 0;
+}
+.social-links{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.social-links i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-links i:hover{
+   color: white;
+   background-color: #009ad8;
+}
