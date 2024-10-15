@@ -17,7 +17,7 @@ let NextDay2=document.querySelector(".next-next-day")
 
 let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 async function gitapi(x){
-    let dateapi = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=5b46dcbd3f45454dbf9161743241210&q=${x}&days=3`);
+    let dateapi = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=5b46dcbd3f45454dbf9161743241210&q=${x}&days=3`);
     let data=await dateapi.json();
     console.log(data);
     city.innerHTML=data.location.name
